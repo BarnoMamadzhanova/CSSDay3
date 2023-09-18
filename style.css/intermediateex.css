@@ -1,0 +1,204 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px 5px;
+    border: 1px solid black; 
+}
+
+.first,
+.Protein { 
+    display: block;
+    line-height: 0px;
+    border-bottom: 15px solid black;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+#cup {
+    text-align: right;
+}
+
+#cereal {
+    margin-left: 25%;
+}
+
+
+.second {
+    align-items: flex-end;
+    border-bottom: 3px solid black;
+}
+
+body > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    max-width: 400px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.padding {
+    margin-left: 15px;
+}
+
+.third,
+.fat,
+.Sodium,
+.Cholesterol,
+.VA,
+.VC,
+.Calcium,
+.Iron {
+    border-bottom: 3px solid grey;
+    font-size: 120%;
+}
+
+.calories {
+    font-size: 120%;
+    border-bottom: 7px solid black;
+}
+
+.fat {
+    border-top: 4px solid black;
+}
+
+#value {
+    width: 60%;
+    font-size: 110%;
+    margin-left: 55%;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end; */
+    /* float: right; */
+}
+
+.Sfat,
+.Tfat,
+.Carbohydrate,
+.Fiber,
+.Sugars {
+    font-size: 120%;
+    border-bottom: 3px solid grey;
+}
+
+.rows {
+    max-width: 400px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.calories2,
+.totalfat,
+.Sfat2,
+.Cholesterol2,
+.Sodium2,
+.Carbohydrate2,
+.Fiber2 {
+    line-height: 0px;
+}
+.Fiber2 {
+    border-bottom: 3px solid grey;
+}
+
+.totalfat {
+    border-top: 3px solid grey;
+}
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    line-height: 0px;
+}
+
+#gram {
+    line-height: 0px;
+}
+
+.mg {
+    max-width: 400px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.first p {
+    line-height: 0;
+
+}
+.first {
+    border-bottom: 15px solid black;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px solid black;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.calories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    border-top: 3px solid gray;
+    border-bottom: 8px solid black;
+}
+
+#value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 3px solid black;
+    gap: 10%;
+}
+
+.fat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    border-bottom: 3px solid black;
+}
+
+.Sfat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+} */
+
+

@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/intermediateex.css">
     <title>CSS3 Intermediate</title>
 </head>
-<body>
-    <div class="container">
+<body class="container">
         <div class="first">
             <h2>Nutrition Facts</h2>
-            <p>Serving Size 1 cup (50g)</p>
-            <p>Servings per Container 10</p>
+            <div id="serving">
+                <p>Serving Size 1 cup (50g)</p>
+                <p>Servings per Container 10</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="second">
             <p>Amount Per Serving</p>
-            <p>Cereal</p>
-            <p>with 1/2 cup 1% Milk</p>
+            <p id="cereal">Cereal</p>
+            <p id="cup">with 1/2 <br>cup 1% <br>Milk</p>
         </div>
         <!-- LINE -->
         <div class="third">
             <p>Calories</p>
-            <p>190</p>
-            <p>250</p>
+            <div class="column">
+                <p>190</p>
+                <p>250</p>
+            </div>    
         </div>
-        <div class="main">
             <!-- LINE -->
             <div class="calories">
-                <p>Calories from Fat</p>
-                <p>35</p>
-                <p>45</p>
+                <p class="padding">Calories from Fat</p>
+                <div class="column">
+                   <p>35</p>
+                   <p>45</p>
+                </div>
             </div>
-        </div>
         <!-- LINE -->
         <div>
             <p id="value">%Daily Value**</p>
@@ -39,48 +43,60 @@
         <!-- LINE -->
         <div class="fat">
             <p>Total Fat 4g*</p>
-            <p>6%</p>
-            <p>8%</p>
+            <div class="column">
+                <p>6%</p>
+                <p>8%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Sfat">
-            <p>Saturated Fat 1.5g</p>
-            <p>8%</p>
-            <p>13%</p>
+            <p class="padding">Saturated Fat 1.5g</p>
+            <div class="column">
+                <p>8%</p>
+                <p>13%</p>
+            </div>          
         </div>
         <!-- LINE -->
         <div class="Tfat">
-            <p>Trans Fat 0g</p>
+            <p class="padding">Trans Fat 0g</p>
             <p></p>
             <p></p>
         </div>
         <!-- LINE -->
         <div class="Cholesterol">
             <p>Cholesterol 0mg</p>
-            <p>0%</p>
-            <p>3%</p>
+            <div class="column">
+                <p>0%</p>
+                <p>3%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Sodium">
             <p>Sodium 190mg</p>
-            <p>8%</p>
-            <p>11%</p>
+            <div class="column">
+                <p>8%</p>
+                <p>11%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Carbohydrate">
             <p>Total Carbohydrate 39g</p>
-            <p>13%</p>
-            <p>15%</p>
+            <div class="column">
+                <p>13%</p>
+                <p>15%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Fiber">
-            <p>Dietary Fiber 6g</p>
-            <p>24%</p>
-            <p>24%</p>
+            <p class="padding">Dietary Fiber 6g</p>
+            <div class="column">
+                <p>24%</p>
+                <p>24%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Sugars">
-            <p>Sugars 11g</p>
+            <p class="padding">Sugars 11g</p>
             <p></p>
             <p></p>
         </div>
@@ -93,26 +109,34 @@
         <!-- LINE -->
         <div class="VA">
             <p>Vitamin A</p>
-            <p>0%</p>
-            <p>6%</p>
+            <div class="column">
+                <p>0%</p>
+                <p>6%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="VC">
             <p>Vitamin C</p>
-            <p>0%</p>
-            <p>2%</p>
+            <div class="column">
+                <p>0%</p>
+                <p>2%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Calcium">
             <p>Calcium</p>
-            <p>2%</p>
-            <p>15%</p>
+            <div class="column">
+                <p>2%</p>
+                <p>15%</p>
+            </div>
         </div>
         <!-- LINE -->
         <div class="Iron">
             <p>Iron</p>
-            <p>6%</p>
-            <p>6%</p>
+            <div class="column">
+                <p>6%</p>
+                <p>6%</p>
+            </div>
         </div>
         <!-- LINE -->
         <p id="text">
@@ -126,49 +150,77 @@
         </p>
         <div class="calories2">
             <p></p>
-            <p>Calories:</p>
-            <p>2000</p>
-            <p>2.500</p>
+            <div class="rows">
+                <p>Calories:</p>
+                <div class="mg">
+                    <p>2000</p>
+                    <p>2.500</p>
+                </div>
+            </div>
         </div>
         <!-- LINE -->
         <div class="totalfat">
             <p>Total Fat</p>
-            <p>Less than</p>
-            <p>65g</p>
-            <p>80g</p>
+            <div class="rows">
+                <p>Less than</p>
+                <div class="mg">
+                    <p>65g</p>
+                    <p>80g</p>
+                </div>
+            </div>
         </div>
         <div class="Sfat2">
-            <p>Saturated Fat</p>
-            <p>Less than</p>
-            <p>20g</p>
-            <p>25g</p>
+            <p class="padding">Saturated Fat</p>
+            <div class="rows">
+                <p>Less than</p>
+                <div class="mg">
+                    <p>20g</p>
+                    <p>25g</p>
+                </div>
+            </div>
         </div>
         <div class="Cholesterol2">
             <p>Cholesterol</p>
-            <p>Less than</p>
-            <p>300mg</p>
-            <p>300mg</p>
+            <div class="rows">
+                <p>Less than</p>
+                <div class="mg">
+                    <p>300mg</p>
+                    <p>300mg</p>
+                </div>
+            </div>
         </div>
         <div class="Sodium2">
             <p>Sodium</p>
-            <p>Less than</p>
-            <p>2.400mg</p>
-            <p>2.400mg</p>
+            <div class="rows">
+                <p>Less than</p>
+                <div class="mg">
+                    <p>2.400mg</p>
+                    <p>2.400mg</p>
+                </div>
+            </div>
         </div>
         <div class="Carbohydrate2">
             <p>Total Carbohydrate</p>
-            <p></p>
-            <p>300g</p>
-            <p>375g</p>
+            <div class="rows">
+                <p></p>
+                <div class="mg">
+                    <p>300g</p>
+                    <p>375g</p>
+                </div>
+            </div>
         </div>
         <div class="Fiber2">
-            <p>Dietary Fiber</p>
-            <p></p>
-            <p>25g</p>
-            <p>30g</p>
+            <p class="padding">Dietary Fiber</p>
+            <div class="rows">
+                <p></p>
+                <div class="mg">
+                    <p>25g</p>
+                    <p>30g</p>
+                </div>
+            </div>
         </div>
         <!-- LINE -->
-        <p id="per gram">Calories per gram:</p>
+        <p id="gram">Calories per gram:</p>
         <div class="last">
             <p>Fat 9</p>
             <p>&bull;</p>
@@ -176,6 +228,5 @@
             <p>&bull;</p>
             <p>Protein 4</p>
         </div>
-    </div>  
 </body>
 </html>
